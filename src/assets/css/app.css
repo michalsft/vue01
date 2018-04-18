@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'MyFonts';
+  src: url('../fonts/Montserrat-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  /* margin: 20px; */
+  background: darkgray;
+  font-family: 'MyFonts', 'Lucida Console';
+}
+
+.mark-container {
+  background: darkorange;
+}
+
+.mark-row {
+  background: darkred;
+}
+
+.mark-col {
+  background: blue;
+  color: white;
+}
